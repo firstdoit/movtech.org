@@ -1,82 +1,154 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        {/* Primary Meta Tags */}
+        <title>Movimento Tech — Inclusão produtiva pela tecnologia.</title>
+        <meta
+          name="title"
+          content="Movimento Tech — Inclusão produtiva pela tecnologia."
+        />
+        <meta
+          name="description"
+          content="Somos um grupo de pessoas comprometidas com o futuro do Brasil que vai além das suas empresas e organizações, trabalhando de forma coordenada para incluir talentos em tecnologia."
+        />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://movtech.org/" />
+        <meta
+          property="og:title"
+          content="Movimento Tech — Inclusão produtiva pela tecnologia."
+        />
+        <meta
+          property="og:description"
+          content="Somos um grupo de pessoas comprometidas com o futuro do Brasil que vai além das suas empresas e organizações, trabalhando de forma coordenada para incluir talentos em tecnologia."
+        />
+        <meta property="og:image" content="/images/movtech2030.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://movtech.org" />
+        <meta
+          property="twitter:title"
+          content="Movimento Tech — Inclusão produtiva pela tecnologia."
+        />
+        <meta
+          property="twitter:description"
+          content="Somos um grupo de pessoas comprometidas com o futuro do Brasil que vai além das suas empresas e organizações, trabalhando de forma coordenada para incluir talentos em tecnologia."
+        />
+        <meta property="twitter:image" content="/images/movtech2030.png" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+        <Image
+          src="/images/movtech2030.png"
+          width="855px"
+          height="439px"
+          alt="Movimento Tech 2030"
+        />
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
+        <div className="max-w-xl text-base">
+          <p className="mt-0 max-w-md mx-auto">
+            Em 2030, nós transformamos o Brasil em um dos líderes globais de{" "}
+            <span style={{ color: "#0097a7" }}>
+              inclusão produtiva por meio da tecnologia.
+            </span>
+          </p>
+          <p className="mt-3 max-w-md mx-auto">
+            Atendemos a demanda por profissionais de tecnologia e{" "}
+            <span style={{ color: "#0097a7" }}>aceleramos um ecossistema</span>{" "}
+            que forma talentos em escala.
+          </p>
+          <p className="mt-3 max-w-lg mx-auto">
+            Somos um grupo de pessoas comprometidas com o futuro do Brasil que{" "}
+            <span style={{ color: "#0097a7" }}>
+              vai além das suas empresas e organizações,{" "}
+            </span>
+            trabalhando de forma coordenada para incluir talentos em tecnologia
+          </p>
+        </div>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
-            href="https://nextjs.org/docs"
+            target="_blank"
+            href="https://join.slack.com/t/movimentotech/shared_invite/zt-tcksim4n-uqTL5w2E_uD7ov4MCtCg5w"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
+            <h3 className="text-2xl font-bold">Slack &rarr;</h3>
             <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
+              Fique informado e contribua diretamente para nosso movimento.
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn"
+            target="_blank"
+            href="https://docs.google.com/document/d/1OoTQhT0tUFCxENc4X_sYBolcNUn7l_FRo4XhuA43Nko/edit"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
+            <h3 className="text-2xl font-bold">Atas &rarr;</h3>
             <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
+              Acompanhe o progresso da taskforce do Movimento.
             </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            target="_blank"
+            href="https://docs.google.com/document/d/1i42fBe9VSYfPe_w26_cuVjHRmIKsUS8vlf7kUebCj2Y/edit"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
+            <h3 className="text-2xl font-bold">Declaração 2030 &rarr;</h3>
             <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
+              Conheça o futuro com o qual estamos comprometidos.
             </p>
           </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <Link href="/time">
+            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
+              <h3 className="text-2xl font-bold">Causadores &rarr;</h3>
+              <p className="mt-4 text-xl">
+                Conheça o grupo de pessoas disposto a ser causa desse futuro.
+              </p>
+            </div>
+          </Link>
         </div>
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
           className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://movtech.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          Feito por pessoas de · iFood · XP · Fundação Behring · Descomplica ·
+          Arco Instituto · VTEX · desde 2021
+          {/* <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" /> */}
         </a>
       </footer>
     </div>
-  )
+  );
 }
