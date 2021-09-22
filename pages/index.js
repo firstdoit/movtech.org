@@ -95,7 +95,7 @@ export default function Home() {
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
             target="_blank"
-            href="https://join.slack.com/t/movimentotech/shared_invite/zt-tcksim4n-uqTL5w2E_uD7ov4MCtCg5w"
+            href="https://join.slack.com/t/movimentotech/shared_invite/zt-w55quolx-ffSVjUeKEA8I8g1hDlLDTg"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Slack &rarr;</h3>
@@ -106,10 +106,10 @@ export default function Home() {
 
           <a
             target="_blank"
-            href="https://docs.google.com/document/d/1OoTQhT0tUFCxENc4X_sYBolcNUn7l_FRo4XhuA43Nko/edit"
+            href="https://drive.google.com/drive/u/2/folders/0ACj0AM22RTCpUk9PVA"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Atas &rarr;</h3>
+            <h3 className="text-2xl font-bold">Atas e Drive &rarr;</h3>
             <p className="mt-4 text-xl">
               Acompanhe o progresso da taskforce do Movimento.
             </p>
@@ -126,14 +126,17 @@ export default function Home() {
             </p>
           </a>
 
-          <Link href="/time">
-            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
-              <h3 className="text-2xl font-bold">Causadores &rarr;</h3>
-              <p className="mt-4 text-xl">
-                Conheça o grupo de pessoas disposto a ser causa desse futuro.
-              </p>
-            </div>
-          </Link>
+          <a
+            target="_blank"
+            href="https://docs.google.com/presentation/d/1sgFDVCdtK6LKz9KXOMS8HZa9VVu4Q0azDs5bQpOCQW4/edit#slide=id.geaa7285690_0_82"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Causadores &rarr;</h3>
+            <p className="mt-4 text-xl">
+              Conheça o grupo de pessoas e projetos dispostos a serem causas
+              desse futuro.
+            </p>
+          </a>
         </div>
       </main>
 
