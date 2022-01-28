@@ -95,7 +95,7 @@ export default function Home() {
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a
             target="_blank"
-            href="https://join.slack.com/t/movimentotech/shared_invite/zt-w55quolx-ffSVjUeKEA8I8g1hDlLDTg"
+            href="https://join.slack.com/t/movimentotech/shared_invite/zt-1271m6lao-HxobjZezt_RRjSlY8PQicQ"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Slack &rarr;</h3>
