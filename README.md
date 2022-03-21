@@ -1,6 +1,11 @@
 # Movimento Tech 2030
 
-`yarn install`
+Just edit `index.html`
 
-`yarn dev`
+You can use a live reload server, like:
 
+`npm i -g live-server`
+
+And then:
+
+`live-server .`
