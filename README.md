@@ -1,6 +1,6 @@
 # Movimento Tech 2030
 
-Just edit `index.html`
+All content is in `index.html`.
 
 You can use a live reload server, like:
 
@@ -9,3 +9,5 @@ You can use a live reload server, like:
 And then:
 
 `live-server .`
+
+Deployed to vercel.
