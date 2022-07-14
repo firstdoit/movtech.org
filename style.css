@@ -1,3 +1,12 @@
+.sponsors .container-sponsors{
+    align-items: center;
+    justify-content: center;
+}
+
+.people-make-happen .people-flex{
+    justify-content: center;
+}
+
 nav .participar-nav {
     border: #42AABB 1px solid;
     padding: 13px 22px;
@@ -73,6 +82,10 @@ nav .participar-nav:hover {
         margin-left: 51rem;
         width: 38rem;
     }
+}
+
+.people-make-happen .image-people-container img {
+    max-width: 150px;
 }
 
 /* Partners End*/
