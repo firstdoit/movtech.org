@@ -51,6 +51,9 @@ nav .participar-nav:hover {
 .know-more {
     color: #42AABB;
 }
+.midia-link:hover .know-more{
+    color: #368d9b;
+}
 
 .maintainers-container{
     max-width: 350px;
