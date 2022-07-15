@@ -39,6 +39,7 @@
         content="Fomentamos projetos disruptivos que aceleram a inclusão produtiva no Brasil através da tecnologia." />
     <meta property="twitter:image" content="https://movtech.org/estudante-orig.jpeg" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Small CSS to Hide elements at 1520px size -->
     <style>
         @media(max-width:1520px) {
@@ -73,23 +74,29 @@
 
 <body class="overflow-x-hidden antialiased">
     <!-- Header Section -->
-    <header class="relative z-50 w-full h-24">
+    <header class="relative z-50 w-full h-40 lg:h-24">
         <div
-            class="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
+            class="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0 lg:pt-10">
 
             <a href="/" class="relative flex items-center h-full font-black leading-none">
-
-                <span class="text-2xl text-gray-800">Movimento Tech <span style="color: #42AABB;">2030</span></span>
+                <img src="images/movtech2030_logo.png" class="w-full">
             </a>
 
             <nav id="nav"
                 class="absolute top-0 left-0 z-50 flex flex-col items-center justify-between hidden w-full h-64 pt-5 mt-24 text-sm text-gray-800 bg-white border-t border-gray-200 md:w-auto md:flex-row md:h-24 lg:text-base md:bg-transparent md:mt-0 md:border-none md:py-0 md:flex md:relative">
-                <a href="#proposito"
+                <a href="/#proposito"
                     class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-blue-600">Propósito</a>
-                <a href="#pilares"
+                <a href="/#pilares"
                     class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-blue-600">Pilares</a>
-                <a href="#participar"
-                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-blue-600">Participar</a>
+                <a href="/projetos/"
+                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-blue-600">Projetos</a>
+                <a href="/parceiros/"
+                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-blue-600">Parceiros</a>
+                <a href="/na-midia/"
+                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-blue-600">Na
+                    mídia</a>
+                <a href="/#participar"
+                    class="participar-nav mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-blue-600">Participar</a>
                 <!-- <a href="#testimonials"
                     class="font-bold duration-100 transition-color hover:text-indigo-600">Testimonials</a> -->
                 <div class="flex flex-col block w-full font-medium border-t border-gray-200 md:hidden">
@@ -156,22 +163,27 @@
                 <h1 class="relative mb-6 text-4xl lg:text-6xl font-black leading-tight text-gray-900 xl:mb-8">Por um
                     Brasil <span style="color: #42AABB;">próspero</span> e <span
                         style="color: #42AABB;">protagonista</span> <br class="xs:hidden" />em tecnologia</h1>
-                <p class="pr-0 mb-6 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Somos uma plataforma
-                    de investimento social em educação para tecnologia.</p>
-                <p class="pr-0 mb-6 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Fomentamos projetos
-                    disruptivos que aceleram a inclusão produtiva no Brasil através da tecnologia.</p>
+                <p class="pr-0 mb-6 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Movimento Tech é uma <span
+                        style="color: #42AABB;">plataforma de investimento</span> para despertar o interesse pela
+                    carreira em tecnologia, formar e empregar.</p>
+                <p class="pr-0 mb-6 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Conectamos empresas e
+                    coordenamos esforços e recursos para gerar <span style="color: #42AABB;">impacto por meio de
+                        investimento social.</span></p>
+                <p class="pr-0 mb-6 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Selecionamos e financiamos
+                    projetos <span style="color: #42AABB;">que aceleram nossos pilares de atuação: <b>despertar,
+                            capacitar e empregar.</b></span></p>
                 <a href="mailto:contato@movtech.org" target="_blank"
                     class="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white border-t border-gray-200 rounded-md shadow-xl sm:mt-1 fold-bold lg:mx-0"
                     style="background-color: #42AABB;">Quero participar</a>
                 <span class="text-gray-600 text-sm pt-4">Email: <a href="mailto:contato@movtech.org"
                         target="_blank">contato@movtech.org</a></span>
                 <!-- Integrates with section -->
-                <div class="flex-col hidden mt-12 sm:flex lg:mt-12">
+                <!-- <div class="flex-col hidden mt-12 sm:flex lg:mt-12">
                     <p class="mb-4 text-sm font-medium tracking-widest text-gray-600 uppercase">Apoio</p>
                     <div class="flex">
                         <img src="apoiadores-v1.png" style="filter: grayscale(1) opacity(0.5); width: 400px" />
                     </div>
-                </div>
+                </div> -->
                 <svg class="absolute left-0 max-w-md mt-24 -ml-64 left-svg" viewBox="0 0 423 423"
                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <defs>
@@ -267,6 +279,11 @@
                 </p>
 
             </div>
+
+            <video class="video-home pt-40 w-full" width="400" controls>
+                <source src="images/MOV_TECH_v1.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
         </div>
     </div>
     <!-- END WHAT IF SECTION -->
@@ -496,7 +513,7 @@
             <div class="max-w-full mx-auto md:max-w-6xl sm:px-8">
                 <div class="relative flex flex-col items-center block sm:flex-row">
                     <div
-                        class="relative z-0 w-11/12 max-w-sm my-8 border shadow-lg  border-gray-200 rounded-lg sm:w-3/5 lg:w-1/3 sm:my-5 md:-mr-4">
+                        class="relative z-0 w-11/12 max-w-sm my-8 border shadow-lg  border-gray-200 rounded-lg sm:w-3/5 lg:w-2/3 sm:my-5 md:-mr-4">
                         <div class="overflow-hidden text-black bg-white border-t border-gray-100 rounded-lg shadow-sm">
                             <div
                                 class="block max-w-sm px-6 lg:px-12 mx-auto mt-5 text-sm text-center text-black sm:text-md ">
@@ -545,7 +562,8 @@
                                                 <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                             </svg>
                                         </div>
-                                        <span class="ml-3 text-lg text-gray-700">A partir de R$ 100 mil</span>
+                                        <span class="ml-3 text-lg text-gray-700">A partir de R$ 50mil </br>ou R$ 200mil
+                                            em serviços</span>
                                     </li>
                                 </ul>
                             </div>
@@ -557,7 +575,7 @@
                         </div>
                     </div>
                     <div
-                        class="relative z-10 w-full max-w-md my-8 bg-white rounded-lg shadow-lg sm:w-2/3 lg:w-1/3 sm:my-5">
+                        class="relative z-10 w-full max-w-md my-8 bg-white rounded-lg shadow-lg sm:w-2/3 lg:w-2/3 sm:my-5">
                         <div class="py-4 text-sm font-semibold leading-none tracking-wide text-center text-white uppercase rounded-t-lg"
                             style="background-color: #444444;">
                             Estratégico</div>
@@ -604,7 +622,8 @@
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="ml-3 text-lg text-gray-700">R$ 500 mil/ano por 3 anos</span>
+                                    <span class="ml-3 text-lg text-gray-700">A partir de R$ 300mil/ano </br> por 3
+                                        anos</span>
                                 </li>
                             </ul>
                         </div>
@@ -615,17 +634,17 @@
                                 style="background-color: #42AABB;">Participar</a>
                         </div>
                     </div>
-                    <div
+                    <!--<div
                         class="relative z-0 w-11/12 max-w-sm my-8 rounded-lg shadow-lg sm:w-3/5 lg:w-1/3 sm:my-5 md:-ml-4">
                         <div class="overflow-hidden text-black bg-white rounded-lg shadow-lg shadow-inner">
                             <div
                                 class="block max-w-sm px-6 lg:px-12  mx-auto mt-5 text-sm text-center text-black sm:text-md">
                                 <h3 class="p-3 text-lg font-bold tracking-wide text-center uppercase">Apoiador<span
                                         class="ml-2 font-light"></span></h3>
-                                <!-- <h4
+                                <h4
                                     class="flex items-center justify-center pb-6 text-5xl font-bold text-center text-gray-900">
                                     <span class="mr-1 -ml-2 text-lg text-gray-700">logos apoiadores</span>
-                                </h4> -->
+                                </h4>
                                 <p class="pl-2 text-sm text-gray-600">Apoiadores contribuem fortalecendo nossa
                                     comunidade.</p>
                             </div>
@@ -673,11 +692,131 @@
                                     style="background-color: #42AABB;">Participar</a>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Start Maintainers Section-->
+    <section class="maintainers pt-4 pb-32 max-w-6xl mx-auto">
+        <div class="container mx-auto">
+            <h3 class="text-center mb-12 text-3xl font-bold mx-auto">Mantenedores</h3>
+
+            <div class="flex items-center align-center">
+                <div class="mx-auto w-1/2 flex ">
+
+                    <div class="w-full md:w-1/2 lg:w-1/2">
+                        <div class="py-6 lg:px-4 lg:pb-4 lg:pr-0 bg-white rounded">
+                            <img src="images/maintainers/ifood.png" class="rounded-3xl mx-auto lg:mr-0">
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/2">
+                        <div class="py-6 lg:px-4 lg:pb-4 lg:pl-0 bg-white rounded">
+                            <img src="images/maintainers/xp.png" class="rounded-3xl mx-auto lg:ml-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Maintainers Section-->
+
+    <!-- Start Sponsors Section-->
+    <section class="sponsors pt-4 pb-32 max-w-6xl mx-auto">
+        <div class="container mx-auto">
+            <h3 class="text-center mb-12 text-3xl font-bold mx-auto">Patrocinadores</h3>
+
+            <div class="flex flex-wrap container-sponsors">
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/arco-instituto.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/boticario.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/buser.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/ciandt.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/cubos.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/digital-house.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/fundacao.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/gama.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/localiza.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/kenzie.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/letscode.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/one.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/rd.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/rocketseat.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/semantix.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/telles.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/5">
+                    <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded">
+                        <img src="images/sponsors/vtex.png" class="rounded-3xl mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Sponsors Section-->
 
     <!-- Begin Sendinblue Form -->
     <!-- START - We recommend to place the below code in head tag of your website html  -->
@@ -980,13 +1119,22 @@
                 <ul class="flex flex-col w-full p-0 font-medium text-left text-gray-700 list-none">
                     <li class="inline-block px-3 py-2 mt-5 font-bold tracking-wide text-gray-800 uppercase md:mt-0">
                         Movimento</li>
-                    <li><a href="#proposito"
+                    <li><a href="/#proposito"
                             class="inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600">Propósito</a>
                     </li>
-                    <li><a href="#pilares"
+                    <li><a href="/#pilares"
                             class="inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600">Pilares</a>
                     </li>
-                    <li><a href="#participar"
+                    <li><a href="/projetos/"
+                            class="inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600">Projetos</a>
+                    </li>
+                    <li><a href="/parceiros/"
+                            class="inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600">Parceiros</a>
+                    </li>
+                    <li><a href="/na-midia/"
+                            class="inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600">Na mídia</a>
+                    </li>
+                    <li><a href="/#participar"
                             class="inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600">Participar</a>
                     </li>
                 </ul>

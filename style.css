@@ -1,0 +1,152 @@
+.sponsors .container-sponsors{
+    align-items: center;
+    justify-content: center;
+}
+
+.people-make-happen .people-flex{
+    justify-content: center;
+}
+
+nav .participar-nav {
+    border: #42AABB 1px solid;
+    padding: 13px 22px;
+    color: #42AABB;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+nav .participar-nav:hover {
+    border: rgba(49,130,206,var(--text-opacity)) 1px solid;
+}
+
+/* Projects Start */
+
+.container .projetos-svg {
+    margin-left: -33rem;
+    top: 6px;
+    transform: rotate(9deg);
+}
+
+.list-projects ul li:before {
+    content: "·";
+    font-size: 15px;
+    vertical-align: top;
+    padding-right: 7px;
+    font-weight: bold;
+}
+
+/* Projects End */
+
+
+/* Partners Start*/
+
+.partners .column-texts{
+    height: 600px;
+}
+
+.partners .image-container {
+    left: 10%;
+}
+
+.know-more {
+    color: #42AABB;
+}
+.midia-link:hover .know-more{
+    color: #368d9b;
+}
+
+.maintainers-container{
+    max-width: 350px;
+}
+
+.supporter svg {
+    margin-left: 47rem;
+    width: 37rem;
+}
+
+@media screen  and (min-width: 1000px) and (max-width: 1100px) {
+    .supporter svg {
+        margin-left: 44rem;
+        width: 29rem;
+        margin-top: 12px;
+    }
+}
+
+@media screen  and (min-width: 1100px) and (max-width: 1200px) {
+    .supporter svg {
+        margin-left: 46rem;
+        width: 32rem;
+        margin-top: 7px;
+    }
+}
+
+@media screen  and (min-width: 1300px){
+    .supporter svg {
+        margin-left: 51rem;
+        width: 38rem;
+    }
+}
+
+.people-make-happen .image-people-container img {
+    max-width: 150px;
+}
+
+/* Partners End*/
+
+/* Partner Start*/
+.partner .column-texts{
+    height: 595px;
+}
+
+@media screen  and (max-width: 768px){
+    .partner .column-texts{
+        height: 400px;
+    }
+}
+
+.partner .rectangle-1{
+    max-width: 350px;
+    height: 445px;
+    
+    /* Light Blue */
+    
+    background: #42AABB;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.partner .rectangle-2{
+    max-width: 350px;
+    height: 445px;
+
+    /* Dark Blue */
+
+    background: #1A202C;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.partner .rectangle-3{
+    max-width: 350px;
+    height: 445px;
+
+    /* Light Blue */
+
+    background: #42AABB;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.partner .rectangles h2,
+.partner .rectangles p{
+    text-align: center;
+}
+/* Partner End*/
+
+
+/* In The Media Start*/
+.title-na-midia{
+    height: 115px;
+    overflow: hidden;
+}
+/* In The Media End*/
