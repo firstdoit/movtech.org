@@ -1,13 +1,3 @@
-# Movimento Tech 2030
+# Moved to deco.cx
 
-All content is in `index.html`.
-
-You can use a live reload server, like:
-
-`npm i -g live-server`
-
-And then:
-
-`live-server .`
-
-Deployed to vercel.
+Moved to https://github.com/deco-sites/movtech
